@@ -17,7 +17,7 @@ from thrift.Thrift import TProcessor
 from thrift.transport import TTransport
 all_structs = []
 
-
+ 
 class Iface(object):
     def GetFollowers(self, req_id, user_id, carrier):
         """
